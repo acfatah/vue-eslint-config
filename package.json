@@ -1,0 +1,32 @@
+{
+  "name": "@acfatah/vue-eslint-config",
+  "version": "0.0.1",
+  "description": "ESlint config for Vue",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-updates": "npx npm-check-updates --target semver",
+    "update-deps": "npm run check-updates -- -u && npm install && npm audit fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acfatah/vue-eslint-config.git"
+  },
+  "keywords": [
+    "vue",
+    "eslint-config"
+  ],
+  "author": "Achmad F. Ibrahim <acfatah@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acfatah/vue-eslint-config/issues"
+  },
+  "homepage": "https://github.com/acfatah/vue-eslint-config#readme",
+  "dependencies": {
+    "@antfu/eslint-config": "^3.12.1",
+    "eslint-plugin-tailwindcss": "^3.17.5"
+  },
+  "devDependencies": {
+    "@types/eslint-plugin-tailwindcss": "^3.17.0"
+  }
+}
