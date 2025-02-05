@@ -12,6 +12,11 @@ export default antfu(
   {
     rules: {
       'eslint-comments/no-unlimited-disable': 'off',
+      'sort-imports': [
+        'error', {
+          "allowSeparatedGroups": true,
+        }
+      ],
       'tailwindcss/no-custom-classname': [
         'warn',
         {
